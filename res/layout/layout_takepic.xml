@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <SurfaceView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" 
+	    android:id="@+id/surfaceView"
+	    />
+    <RelativeLayout
+   		android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" 
+    >
+		<Button
+    	    android:id="@+id/take_pic"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentBottom="true"
+    	    android:layout_centerHorizontal="true"
+    	    android:background="@drawable/take_pic"
+    	    android:onClick="takepicture" />
+
+    	<Button
+    	    android:id="@+id/send_pic"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_toRightOf="@id/take_pic"
+	   	    android:layout_alignBottom="@id/take_pic"
+	        android:layout_marginLeft="30dp"
+    	    android:background="@drawable/send_pic"
+    	    android:onClick="takepicture" />
+
+    	<Button
+    	    android:id="@+id/cancle_pic"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_toLeftOf="@id/take_pic"
+	   	    android:layout_alignBottom="@id/take_pic"
+	        android:layout_marginRight="30dp"
+    	    android:background="@drawable/cancle_pic"
+    	    android:onClick="takepicture" />
+    	
+    	
+    	<ProgressBar
+            android:id="@+id/wait_bar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+</FrameLayout>

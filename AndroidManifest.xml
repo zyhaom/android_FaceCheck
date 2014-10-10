@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hl.takepicture"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        />
+<!--     android:targetSdkVersion="17"  加上这行 会导致很多莫民奇妙的问题 -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name=".ADActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".EntranceActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".TakPicActivity" android:screenOrientation="landscape"
+             />
+        
+        <activity
+            android:name=".ResultActivity"
+            android:screenOrientation="portrait" >
+<!--             <intent-filter> -->
+<!--                 <action android:name="android.intent.action.MAIN" /> -->
+<!--                 <category android:name="android.intent.category.LAUNCHER" /> -->
+<!--             </intent-filter> -->
+        </activity>
+        
+        <activity
+            android:name=".ResultAdapterActivity"
+            android:screenOrientation="portrait" >
+<!--             <intent-filter> -->
+<!--                 <action android:name="android.intent.action.MAIN" /> -->
+<!--                 <category android:name="android.intent.category.LAUNCHER" /> -->
+<!--             </intent-filter> -->
+        </activity>
+        
+    </application>
+    
+<!-- 调用摄像头权限 -->
+<uses-permission android:name="android.permission.CAMERA"/>
+<!-- 在SDCard中创建与删除文件权限 -->
+<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+<!-- 往SDCard写入数据权限 -->
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<!-- 访问internet权限 -->
+<uses-permission android:name="android.permission.INTERNET"/>
+
+<!-- 允许程序访问有关GSM网络信息 -->
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<!-- 允许程序访问Wi-Fi网络状态信息 -->
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+<!-- GPS -->
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+</manifest>

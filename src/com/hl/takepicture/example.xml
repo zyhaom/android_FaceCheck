@@ -1,0 +1,42 @@
+<result>
+    <element id="1">
+        <picUrl>http://192.168.1.112/wxeg_xml/img/2_1.jpg</picUrl>
+        <semblance>99.9%</semblance>
+        <name>张三1</name>
+        <addr>广西省**市1县*************</addr>
+        <linkman>张三1</linkman>
+        <tel>0710-11112222</tel>
+    </element>
+    <element id="2">
+        <picUrl>http://api.androidhive.info/music/images/rihanna.png</picUrl>
+        <semblance>95.9%</semblance>
+        <name>张三2</name>
+        <addr>广西省**市2县</addr>
+        <linkman>张三2</linkman>
+        <tel>0710-11112222</tel>
+    </element>
+    <element id="3">
+        <picUrl>http://api.androidhive.info/music/images/arrehman.png</picUrl>
+        <semblance>94.7%</semblance>
+        <name>张三3</name>
+        <addr>广西省**市3县</addr>
+        <linkman>张三3</linkman>
+        <tel>0710-11112222</tel>
+    </element>
+    <element id="4">
+        <picUrl>http://api.androidhive.info/music/images/dido.png</picUrl>
+        <semblance>93.2%</semblance>
+        <name>张三4</name>
+        <addr>广西省**市4县</addr>
+        <linkman>张三4</linkman>
+        <tel>0710-11112222</tel>
+    </element>
+    <element id="5">
+        <picUrl>http://api.androidhive.info/music/images/enrique.png</picUrl>
+        <semblance>91.1%</semblance>
+        <name>张三5</name>
+        <addr>广西省**市5县</addr>
+        <linkman>张三5</linkman>
+        <tel>0710-11112222</tel>
+    </element>
+</result>

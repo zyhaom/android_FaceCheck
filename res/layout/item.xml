@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:background="@color/white"
+    >
+
+    <ImageView
+        android:id="@+id/imageView_item"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+       />
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:background="@color/gray"
+        android:orientation="vertical" >
+
+        <!-- 相似度 -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mould_semblance"
+            android:textColor="@color/green"
+            android:textSize="15sp" />
+
+        <!-- 姓名 -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mould_name"
+            android:textColor="@color/green"
+            android:textSize="15sp" />
+
+        <!-- 地址 -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mould_addr"
+            android:textColor="@color/green"
+            android:textSize="15sp" />
+
+        <!-- 联系人 -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mould_linkman"
+            android:textColor="@color/green"
+            android:textSize="15sp" />
+
+        <!-- 联系电话 -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mould_tel"
+            android:textColor="@color/green"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <!-- 相似度 -->
+
+        <TextView
+            android:id="@+id/result_mould_semblance"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mould_semblance"
+            android:textColor="@color/black"
+            android:singleLine="true"
+            android:textSize="15sp" />
+        <!-- 姓名 -->
+
+        <TextView
+            android:id="@+id/result_mould_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mould_name"
+            android:textColor="@color/black"
+            android:singleLine="true"
+            android:textSize="15sp" />
+        <!-- 地址 -->
+
+        <TextView
+            android:id="@+id/result_mould_addr"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mould_addr"
+            android:textColor="@color/black"
+            android:singleLine="true"
+            android:textSize="15sp" />
+        <!-- 联系人 -->
+
+        <TextView
+            android:id="@+id/result_mould_linkman"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mould_linkman"
+            android:textColor="@color/black"
+            android:singleLine="true"
+            android:textSize="15sp" />
+        <!-- 联系电话 -->
+
+        <TextView
+            android:id="@+id/result_mould_tel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mould_tel"
+            android:textColor="@color/black"
+            android:singleLine="true"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

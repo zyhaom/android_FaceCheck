@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">人脸识别</string>
+    <string name="action_settings">Settings</string>
+    <string name="result_title">相似度排名</string>
+    <string name="mould_semblance">相似度</string>
+    <string name="mould_name">姓名</string>
+    <string name="mould_addr">地址</string>
+    <string name="mould_linkman">联系人</string>
+    <string name="mould_tel">联系电话</string>
+    <string name="net_fail">请您先连接网络</string>
+    <string name="no_return_result">没有返回查询结果</string>
+    
+
+</resources>
